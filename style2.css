@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@400;700&family=Titillium+Web:wght@300;400&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #0E1D2F; /*sombra embaixo do elemento*/
+    padding: 64px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto {
+    margin-top: -45px;
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rs-logo{
+    width: 100px;
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+.tema button {
+    position: absolute;
+    align-self: flex-end; /*joga o elemento para o canto*/
+    margin-left: 980px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 8px 16px; /* 8px distancia topo e embaixo - 16px lado direito e esquerdo*/
+    background: #ecf4ff;
+    border-radius: 100px;
+}
+
+.voltar {
+    padding-top: 10px;
+}
+
+.dark .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark .tema button{
+    background: #1c1c1c;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
+}
